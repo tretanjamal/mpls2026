@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Resmi MPLS Ramah 2026</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts (Inter) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons for premium look -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .animate-fadeIn {
+      animation: fadeIn 0.4s ease-out forwards;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: rgba(99, 102, 241, 0.3);
+      border-radius: 10px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb:hover {
+      background: rgba(99, 102, 241, 0.5);
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-800 flex flex-col justify-between overflow-x-hidden">
+
+  <!-- === HEADER === -->
+  <header class="bg-gradient-to-r from-blue-700 via-indigo-700 to-indigo-800 text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-4">
+      
+      <!-- Brand Logo & Subtitle -->
+      <div class="flex items-center gap-3 text-center lg:text-left flex-col sm:flex-row">
+        <div class="bg-white p-2.5 rounded-xl text-indigo-700 font-extrabold text-2xl shadow-inner select-none flex items-center justify-center w-12 h-12 shrink-0">
+          🎓
+        </div>
+        <div>
+          <h1 class="text-base sm:text-xl font-extrabold tracking-wide flex items-center justify-center lg:justify-start gap-2">
+            PORTAL MPLS RAMAH 2026
+          </h1>
+          <p class="text-[10px] sm:text-xs text-blue-200 font-medium">
+            Bermutu & Ramah untuk Semua • Sesuai Permendikdasmen No. 12 Tahun 2026
+          </p>
+        </div>
+      </div>
+      
+      <!-- Main Navigation Links -->
+      <nav class="flex flex-wrap justify-center gap-1.5 text-xs sm:text-sm font-semibold bg-indigo-900/40 p-1 rounded-xl w-full lg:w-auto">
+        <button onclick="switchTab('home')" id="btn-tab-home" class="nav-btn px-2.5 py-2 sm:px-3 rounded-lg transition-all bg-white text-indigo-800 shadow-sm flex-grow sm:flex-grow-0 text-center">
+          Beranda
+        </button>
+        <button onclick="switchTab('aturan')" id="btn-tab-aturan" class="nav-btn px-2.5 py-2 sm:px-3 rounded-lg transition-all text-white hover:bg-indigo-600/50 flex-grow sm:flex-grow-0 text-center">
+          Aturan Baru
+        </button>
+        <button onclick="switchTab('panduan')" id="btn-tab-panduan" class="nav-btn px-2.5 py-2 sm:px-3 rounded-lg transition-all text-white hover:bg-indigo-600/50 flex-grow sm:flex-grow-0 text-center">
+          Panduan Aktivitas
+        </button>
+        <button onclick="switchTab('asesmen')" id="btn-tab-asesmen" class="nav-btn px-2.5 py-2 sm:px-3 rounded-lg transition-all text-white hover:bg-indigo-600/50 flex-grow sm:flex-grow-0 text-center">
+          Materi & Asesmen
+        </button>
+        <button onclick="switchTab('kuis')" id="btn-tab-kuis" class="nav-btn px-2.5 py-2 sm:px-3 rounded-lg transition-all text-white hover:bg-indigo-600/50 flex-grow sm:flex-grow-0 text-center">
+          Cek Kesiapan
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- === HERO AREA === -->
+  <section id="hero-section" class="bg-gradient-to-br from-indigo-900 via-indigo-950 to-slate-900 text-white py-10 px-4 sm:px-6 relative overflow-hidden border-b border-indigo-950">
+    <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
+    
+    <div class="max-w-7xl mx-auto relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-10">
+      
+      <!-- Hero Left (Texts & Action CTA) -->
+      <div class="text-center lg:text-left flex-1 space-y-5">
+        <span class="bg-teal-400 text-teal-950 font-extrabold px-3.5 py-1.5 rounded-full text-[10px] sm:text-xs uppercase tracking-widest shadow-md inline-block">
+          <i class="fa-solid fa-circle-check mr-1 animate-pulse"></i> Regulasi Resmi Kemendikdasmen 2026
+        </span>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black leading-tight text-white tracking-tight">
+          Masa Pengenalan Lingkungan Sekolah (MPLS) Ramah
+        </h2>
+        <p class="text-xs sm:text-sm md:text-base lg:text-lg text-blue-100 font-light max-w-2xl leading-relaxed mx-auto lg:mx-0">
+          Hari Baru, Aman, dan Nyaman di Sekolah. Mewujudkan lingkungan pendidikan inklusif, bebas kekerasan, intoleransi, perundungan siber, dan pungutan liar.
+        </p>
+        
+        <!-- CTA Buttons -->
+        <div class="pt-2 flex flex-wrap justify-center lg:justify-start gap-3">
+          <button onclick="switchTab('panduan')" class="bg-teal-400 hover:bg-teal-300 text-teal-950 font-extrabold px-5 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all text-xs sm:text-sm flex items-center justify-center gap-2 w-full sm:w-auto">
+            <i class="fa-solid fa-calendar-days"></i> Lihat Agenda Harian (H1 - H5)
+          </button>
+          <button onclick="switchTab('kuis')" class="bg-transparent hover:bg-white/10 border border-white/30 text-white font-bold px-5 py-3 rounded-xl transition-all text-xs sm:text-sm flex items-center justify-center gap-2 w-full sm:w-auto">
+            <i class="fa-solid fa-calculator"></i> Kalkulator Kepatuhan Regulasi
+          </button>
+        </div>
+      </div>
+
+      <!-- Hero Right (Jamaluddin Profile Card) -->
+      <div class="bg-white/10 backdrop-blur-md border border-white/20 p-5 sm:p-6 rounded-2xl w-full max-w-md lg:max-w-sm shrink-0 shadow-2xl flex flex-col sm:flex-row lg:flex-col items-center gap-5 text-center sm:text-left lg:text-center">
+        <div class="relative shrink-0">
+          <img 
+            src="https://ik.imagekit.io/33c8o2seg5/me%20new%20red%20(2).png?updatedAt=1769394440140" 
+            alt="Jamaluddin" 
+            class="w-24 h-24 sm:w-28 sm:h-28 lg:w-28 lg:h-28 rounded-full border-4 border-teal-400 object-cover shadow-lg"
+            onerror="this.onerror=null; this.src='https://cdn-icons-png.flaticon.com/512/3135/3135715.png';"
+          />
+          <span class="absolute bottom-1 right-2 bg-green-500 text-white text-[9px] font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wider shadow">
+            Online
+          </span>
+        </div>
+        <div class="flex-grow space-y-2 w-full">
+          <div>
+            <h4 class="text-base sm:text-lg font-bold text-white">Jamaluddin</h4>
+            <p class="text-xs text-blue-200 font-medium">Guru Pejuang Digital</p>
+            <p class="text-xs text-teal-300 font-semibold mt-0.5"><i class="fa-solid fa-phone mr-1"></i>082332734002</p>
+          </div>
+          
+          <div class="pt-2 border-t border-white/10 flex flex-col gap-2 w-full">
+            <a href="https://wa.me/6282332734002?text=Halo%20Pak%20Jamaluddin,%20saya%20ingin%20konsultasi%20mengenai%20penyusunan%20program%20MPLS%20Ramah%202026." 
+               target="_blank" rel="noopener noreferrer" 
+               class="bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-xs py-2.5 px-4 rounded-xl transition-all flex items-center justify-center gap-2 shadow-md w-full">
+              <i class="fa-brands fa-whatsapp text-sm"></i>
+              <span>Hubungi via WhatsApp</span>
+            </a>
+            <a href="https://s.id/cv-tretanjamal" 
+               target="_blank" rel="noopener noreferrer" 
+               class="bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-xs py-2.5 px-4 rounded-xl transition-all flex items-center justify-center gap-2 shadow-md w-full">
+              <i class="fa-solid fa-user-tie text-sm"></i>
+              <span>Kenali Pengembang</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- === MAIN CONTENT === -->
+  <main class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8 flex-grow w-full">
+
+    <!-- ==================== 1. BERANDA (HOME) ==================== -->
+    <div id="tab-content-home" class="tab-pane space-y-10 sm:space-y-12 animate-fadeIn">
+      
+      <!-- 3 Pilar Utama -->
+      <div>
+        <h3 class="text-xl sm:text-2xl lg:text-3xl font-extrabold text-slate-800 text-center mb-2">3 Pilar Utama MPLS Ramah 2026</h3>
+        <p class="text-slate-500 text-center max-w-xl mx-auto mb-8 text-xs sm:text-sm">
+          MPLS bukan lagi ajang perpeloncoan, melainkan fondasi awal untuk menciptakan ruang belajar yang aman, inklusif, dan gembira.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white rounded-2xl p-5 sm:p-6 shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center text-indigo-600 text-2xl mb-4">
+              👶
+            </div>
+            <h4 class="text-base sm:text-lg font-bold text-slate-800 mb-2">Ramah Anak (Aman & Nyaman)</h4>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              Menjunjung tinggi hak asasi anak. Mutlak bebas dari segala bentuk intimidasi verbal, diskriminasi, kekerasan fisik, perundungan siber, maupun intoleransi.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-5 sm:p-6 shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-600 text-2xl mb-4">
+              🌿
+            </div>
+            <h4 class="text-base sm:text-lg font-bold text-slate-800 mb-2">Ramah Lingkungan (ASRI)</h4>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              Membangun kecintaan pada bumi melalui Gerakan Indonesia ASRI. Pengurangan sampah plastik, edukasi pemilahan sampah, dan pembersihan lingkungan kelas.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-5 sm:p-6 shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center text-amber-600 text-2xl mb-4">
+              💰
+            </div>
+            <h4 class="text-base sm:text-lg font-bold text-slate-800 mb-2">Ramah Biaya (Bebas Pungli)</h4>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              Penyelenggaraan wajib didanai bersumber dari anggaran Dana BOS secara sah. Dilarang keras melakukan pungutan liar atau mewajibkan pembelian atribut baru.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Stat / Checklist Highlight -->
+      <div class="bg-gradient-to-br from-indigo-50 to-blue-100 rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-10 flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8">
+        <div class="space-y-4 max-w-xl text-center lg:text-left">
+          <h3 class="text-lg sm:text-xl lg:text-2xl font-bold text-indigo-950">Bukan Sekadar Imbauan, MPLS Ramah Bersifat Wajib!</h3>
+          <p class="text-indigo-900/80 text-xs sm:text-sm leading-relaxed">
+            Permendikdasmen No. 12 Tahun 2026 menegaskan sanksi administratif ketat bagi sekolah yang mengabaikan regulasi ini. Pastikan sekolah Anda telah memenuhi standar kepatuhan nasional.
+          </p>
+          <div class="flex flex-wrap justify-center lg:justify-start gap-1.5 sm:gap-2 text-[10px] sm:text-xs font-semibold text-indigo-950">
+            <span class="bg-white/80 px-2.5 py-1 rounded-full shadow-sm">✓ Durasi 5 Hari Kerja Efektif</span>
+            <span class="bg-white/80 px-2.5 py-1 rounded-full shadow-sm">✓ Aliansi OSIS Berintegritas</span>
+            <span class="bg-white/80 px-2.5 py-1 rounded-full shadow-sm">✓ Laporan Pasca-MPLS</span>
+          </div>
+        </div>
+        <button onclick="switchTab('kuis')" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-3.5 rounded-xl shadow-lg transition-all w-full lg:w-auto shrink-0 text-center text-xs sm:text-sm">
+          Uji Kesiapan Sekolah Anda 📋
+        </button>
+      </div>
+
+    </div>
+
+    <!-- ==================== 2. ATURAN BARU (PERMENDIKDASMEN 12/2026) ==================== -->
+    <div id="tab-content-aturan" class="tab-pane space-y-8 hidden animate-fadeIn">
+      <div class="text-center max-w-2xl mx-auto">
+        <h3 class="text-2xl sm:text-3xl font-black text-slate-900">Perubahan Regulasi 2026</h3>
+        <p class="text-slate-500 text-xs sm:text-sm mt-2">
+          Peraturan Mendikdasmen Nomor 12 Tahun 2026 secara resmi menggantikan Peraturan Menteri Pendidikan dan Kebudayaan Nomor 18 Tahun 2016.
+        </p>
+      </div>
+
+      <!-- Aturan Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-100 shadow-sm flex flex-col sm:flex-row gap-4">
+          <div class="p-3 rounded-xl bg-indigo-50 h-fit w-fit text-indigo-500 text-xl shrink-0">
+            <i class="fa-solid fa-clock"></i>
+          </div>
+          <div>
+            <h4 class="text-sm sm:text-base font-bold text-slate-800 mb-1 sm:mb-2">Definisi & Durasi Waktu</h4>
+            <p class="text-[11px] sm:text-xs text-slate-400">Aturan Lama: PLS berlangsung hanya 3 (tiga) hari.</p>
+            <p class="text-xs sm:text-sm text-slate-700 font-semibold mt-1">Aturan Baru: MPLS kini berlangsung selama 5 (lima) hari kerja efektif di minggu pertama ajaran baru untuk mematangkan transisi karakter.</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-100 shadow-sm flex flex-col sm:flex-row gap-4">
+          <div class="p-3 rounded-xl bg-rose-50 h-fit w-fit text-rose-500 text-xl shrink-0">
+            <i class="fa-solid fa-users-viewfinder"></i>
+          </div>
+          <div>
+            <h4 class="text-sm sm:text-base font-bold text-slate-800 mb-1 sm:mb-2">Sinergi & Keterlibatan Wali</h4>
+            <p class="text-[11px] sm:text-xs text-slate-400">Aturan Lama: Sosialisasi dan keterlibatan orang tua bersifat tentatif.</p>
+            <p class="text-xs sm:text-sm text-slate-700 font-semibold mt-1">Aturan Baru: Sosialisasi wajib diberikan paling lambat H-5 kerja sebelum MPLS. Orang tua sangat diimbau mengantar langsung di hari pertama.</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-100 shadow-sm flex flex-col sm:flex-row gap-4">
+          <div class="p-3 rounded-xl bg-amber-50 h-fit w-fit text-amber-500 text-xl shrink-0">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <div>
+            <h4 class="text-sm sm:text-base font-bold text-slate-800 mb-1 sm:mb-2">Jiwa Regulasi (BSAN)</h4>
+            <p class="text-[11px] sm:text-xs text-slate-400">Aturan Lama: Lebih condong pada adaptasi administrasi dan fasilitas fisik sekolah.</p>
+            <p class="text-xs sm:text-sm text-slate-700 font-semibold mt-1">Aturan Baru: Asas Budaya Sekolah Aman dan Nyaman (BSAN) menjadi pilar pokok. Fokus pembentukan karakter luhur dan pencegahan kekerasan ekstrim.</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-100 shadow-sm flex flex-col sm:flex-row gap-4">
+          <div class="p-3 rounded-xl bg-emerald-50 h-fit w-fit text-emerald-500 text-xl shrink-0">
+            <i class="fa-solid fa-hand-holding-hand"></i>
+          </div>
+          <div>
+            <h4 class="text-sm sm:text-base font-bold text-slate-800 mb-1 sm:mb-2">TK & SLB Diakomodasi</h4>
+            <p class="text-[11px] sm:text-xs text-slate-400">Aturan Lama: Kurang mengakomodasi petunjuk operasional spesifik TK dan SLB.</p>
+            <p class="text-xs sm:text-sm text-slate-700 font-semibold mt-1">Aturan Baru: Panduan rinci pelaksanaan untuk TK (Taman Kanak-kanak) dan SLB (Sekolah Luar Biasa) telah terintegrasi dengan penekanan emosional-sensorik.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Keterlibatan Murid Asisten Panitia -->
+      <div class="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 border border-slate-100 space-y-4">
+        <h4 class="text-base sm:text-lg font-bold text-slate-800 flex items-center gap-2">
+          <i class="fa-solid fa-users text-indigo-600"></i> Syarat Ketat Keterlibatan Murid/OSIS (SMP, SMA, SMK)
+        </h4>
+        <p class="text-xs text-slate-500 leading-relaxed">
+          Penyelenggaraan tetap menjadi tanggung jawab penuh sekolah di bawah pendampingan guru. Jika melibatkan siswa (OSIS/MPK/Ekskul), wajib memenuhi syarat:
+        </p>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-slate-600 list-disc pl-5">
+          <li>Pengurus aktif OSIS, anggota MPK, atau pengurus terdaftar organisasi ekstrakurikuler.</li>
+          <li>Berkepribadian baik, tidak memiliki kecenderungan sifat buruk atau riwayat sebagai pelaku kekerasan.</li>
+          <li>Apabila sekolah belum memiliki organisasi siswa di atas, dapat menunjuk siswa berprestasi akademis/non-akademis atau yang memiliki kemampuan interpersonal baik.</li>
+          <li><strong>Dilarang keras melibatkan alumni</strong> sebagai penyelenggara formal atau asisten panitia lapangan.</li>
+        </ul>
+      </div>
+
+      <!-- Sanksi & Larangan PENTING -->
+      <div class="bg-red-50 border border-red-200 rounded-2xl p-5 sm:p-6 md:p-8 space-y-4">
+        <div class="flex items-center gap-3">
+          <span class="text-red-600 text-xl sm:text-2xl"><i class="fa-solid fa-triangle-exclamation"></i></span>
+          <h4 class="text-base sm:text-lg font-bold text-red-950">Larangan & Sanksi Administratif Tegas</h4>
+        </div>
+        <p class="text-xs text-red-900 font-medium">Kementerian atau Dinas Pendidikan berwenang penuh untuk menghentikan seketika kegiatan MPLS yang terbukti melanggar:</p>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-red-900 list-disc pl-5">
+          <li><strong>Dilarang keras melakukan perpeloncoan</strong>, kekerasan fisik, verbal, atau intimidasi psikologis dalam bentuk apapun.</li>
+          <li><strong>Dilarang menarik pungutan biaya</strong> operasional dalam bentuk apapun ke wali murid (Pendanaan wajib bersumber dari Dana BOS/Sumber lain yang sah).</li>
+          <li><strong>Dilarang memberikan tugas di luar nalar</strong> (membawa barang aneh yang sulit dicari, penugasan larut malam, dsb).</li>
+          <li><strong>Pelanggar dapat dijatuhkan sanksi administratif berjenjang:</strong> Teguran tertulis, penundaan/pengurangan hak, pembebasan tugas, hingga pemberhentian sementara/tetap dari jabatan fungsional.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ==================== 3. PANDUAN AKTIVITAS PER JENJANG ==================== -->
+    <div id="tab-content-panduan" class="tab-pane space-y-8 hidden animate-fadeIn">
+      <div class="text-center max-w-2xl mx-auto">
+        <h3 class="text-2xl sm:text-3xl font-black text-slate-900">Rujukan Kegiatan 5 Hari</h3>
+        <p class="text-slate-500 text-xs sm:text-sm mt-2">
+          Pilih jenjang sekolah Anda untuk melihat rancangan aktivitas harian sesuai Buku Rujukan Resmi Kementerian 2026.
+        </p>
+        
+        <!-- Disclaimer Box -->
+        <div class="mt-4 p-4 bg-amber-50 border border-amber-200 text-amber-900 rounded-2xl flex items-start gap-3 max-w-2xl mx-auto shadow-sm text-left">
+          <span class="text-xl shrink-0 mt-0.5">⚠️</span>
+          <div class="text-xs sm:text-sm">
+            <strong class="font-extrabold text-amber-950">Catatan Penting Penyesuaian Program:</strong>
+            <p class="text-amber-900/90 mt-1 leading-relaxed text-[11px] sm:text-xs">
+              Agenda harian (Hari ke-1 sampai Hari ke-5) di bawah ini merupakan <strong>rujukan contoh inspiratif resmi</strong>. Satuan pendidikan memiliki fleksibilitas penuh untuk menyesuaikan, memodifikasi, menambah, atau mengurangi jenis kegiatan sesuai kebutuhan, fasilitas, serta karakteristik sekolah dan daerah masing-masing.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jenjang Selector Buttons -->
+      <div class="flex flex-wrap justify-center gap-1.5 sm:gap-2 max-w-2xl mx-auto p-1.5 bg-slate-200/60 rounded-xl sm:rounded-full">
+        <button onclick="switchJenjang('tk')" id="btn-jenjang-tk" class="flex-grow sm:flex-1 min-w-[65px] py-2 px-2.5 rounded-lg sm:rounded-full text-xs sm:text-sm font-bold transition-all text-slate-600 hover:text-slate-900 text-center">
+          TK
+        </button>
+        <button onclick="switchJenjang('sd')" id="btn-jenjang-sd" class="flex-grow sm:flex-1 min-w-[65px] py-2 px-2.5 rounded-lg sm:rounded-full text-xs sm:text-sm font-bold transition-all text-slate-600 hover:text-slate-900 text-center">
+          SD
+        </button>
+        <button onclick="switchJenjang('smp')" id="btn-jenjang-smp" class="flex-grow sm:flex-1 min-w-[65px] py-2 px-2.5 rounded-lg sm:rounded-full text-xs sm:text-sm font-bold transition-all text-slate-600 hover:text-slate-900 text-center">
+          SMP
+        </button>
+        <button onclick="switchJenjang('sma')" id="btn-jenjang-sma" class="flex-grow sm:flex-1 min-w-[65px] py-2 px-2.5 rounded-lg sm:rounded-full text-xs sm:text-sm font-bold transition-all text-slate-600 hover:text-slate-900 text-center">
+          SMA/SMK
+        </button>
+        <button onclick="switchJenjang('slb')" id="btn-jenjang-slb" class="flex-grow sm:flex-1 min-w-[65px] py-2 px-2.5 rounded-lg sm:rounded-full text-xs sm:text-sm font-bold transition-all text-slate-600 hover:text-slate-900 text-center">
+          SLB
+        </button>
+      </div>
+
+      <!-- Jenjang Info Display Card -->
+      <div class="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 lg:p-8 border border-slate-100 shadow-sm space-y-6">
+        <div class="border-b border-slate-100 pb-4">
+          <h4 id="jenjang-title-header" class="text-lg sm:text-xl lg:text-2xl font-extrabold text-slate-800 flex items-center gap-2">
+            -
+          </h4>
+          <p id="jenjang-fokus-text" class="text-slate-600 text-xs sm:text-sm mt-2 leading-relaxed bg-slate-50 p-4 rounded-xl border-l-4 border-indigo-500">
+            -
+          </p>
+        </div>
+
+        <!-- Dynamic Days Content Container -->
+        <div class="space-y-6">
+          <h5 class="font-bold text-slate-800 text-base sm:text-lg">Detail Agenda 5 Hari Kerja:</h5>
+          <div id="days-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+        <!-- 7 Kebiasaan Indonesia Hebat Note -->
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-5 sm:p-6 border border-blue-100 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div class="space-y-1 text-center md:text-left">
+            <h5 class="font-bold text-indigo-950 text-sm">💡 Gerakan 7 Kebiasaan Anak Indonesia Hebat</h5>
+            <p class="text-[11px] sm:text-xs text-indigo-900/80">Meliputi: Pagi Ceria, Sopan dan Santun Bermedia Sosial, Budaya 5S, Gerakan Indonesia ASRI, serta Gerakan Rukun Sama Teman.</p>
+          </div>
+          <a href="https://cerdasberkarakter.kemendikdasmen.go.id/gerakan7kebiasaan" target="_blank" rel="noopener noreferrer" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs px-4 py-2.5 rounded-lg transition-all shrink-0 text-center flex items-center justify-center gap-2 w-full md:w-auto">
+            <span>Unduh Materi Karakter</span> <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== 4. ASESMEN & MATERI UTAMA ==================== -->
+    <div id="tab-content-asesmen" class="tab-pane space-y-8 hidden animate-fadeIn">
+      <div class="text-center max-w-2xl mx-auto">
+        <h3 class="text-2xl sm:text-3xl font-black text-slate-900">Materi & Instrumen Deteksi Dini</h3>
+        <p class="text-slate-500 text-xs sm:text-sm mt-2">
+          Asesmen MPLS Ramah membantu sekolah mengenali karakteristik, kondisi awal, potensi emosional, serta kebugaran jasmani murid sejak hari pertama.
+        </p>
+      </div>
+
+      <!-- Asesmen Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Asesmen Card 1 -->
+        <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-100 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute top-4 right-4">
+            <span class="text-[10px] sm:text-xs font-bold px-2.5 py-1 rounded-full bg-red-50 text-red-700 border border-red-200">
+              Wajib
+            </span>
+          </div>
+          <div>
+            <h4 class="text-base sm:text-lg font-bold text-slate-800 pr-16 mb-2">Identifikasi Awal Sosial-Emosional</h4>
+            <p class="text-[11px] sm:text-xs text-indigo-600 font-semibold mb-3">Target: PAUD, SD, SMP, SMA/SMK (Siswa & Ortu Mengisi di Hari ke-3)</p>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">Mengenali kondisi emosional dasar, tingkat konsentrasi belajar, serta kemampuan berinteraksi sosial murid agar pembelajaran bisa berpusat pada kenyamanan anak.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 mt-4 text-[10px] sm:text-xs text-slate-400">
+            Sumber: Rujukan Resmi Kemendikdasmen 2026.
+          </div>
+        </div>
+
+        <!-- Asesmen Card 2 -->
+        <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-100 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute top-4 right-4">
+            <span class="text-[10px] sm:text-xs font-bold px-2.5 py-1 rounded-full bg-red-50 text-red-700 border border-red-200">
+              Wajib
+            </span>
+          </div>
+          <div>
+            <h4 class="text-base sm:text-lg font-bold text-slate-800 pr-16 mb-2">Asesmen Kebugaran Murid</h4>
+            <p class="text-[11px] sm:text-xs text-indigo-600 font-semibold mb-3">Target: Semua Jenjang (Hari ke-2)</p>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">Mengetahui indeks massa tubuh (IMT), denyut nadi, fleksibilitas fisik, dan kebugaran motorik dasar secara gembira. *Khusus SLB disesuaikan dengan kondisi disabilitas.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 mt-4 text-[10px] sm:text-xs text-slate-400">
+            Sumber: Rujukan Resmi Kemendikdasmen 2026.
+          </div>
+        </div>
+
+        <!-- Asesmen Card 3 -->
+        <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-100 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute top-4 right-4">
+            <span class="text-[10px] sm:text-xs font-bold px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
+              Baru 2026
+            </span>
+          </div>
+          <div>
+            <h4 class="text-base sm:text-lg font-bold text-slate-800 pr-16 mb-2">Pendaftaran Cek Kesehatan Gratis (CKG)</h4>
+            <p class="text-[11px] sm:text-xs text-indigo-600 font-semibold mb-3">Target: Semua Murid Baru</p>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">Pendaftaran layanan pemeriksaan deteksi dini kondisi kesehatan dasar siswa bekerjasama dengan Puskesmas setempat.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 mt-4 text-[10px] sm:text-xs text-slate-400">
+            Sumber: Rujukan Resmi Kemendikdasmen 2026.
+          </div>
+        </div>
+
+        <!-- Asesmen Card 4 -->
+        <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-100 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute top-4 right-4">
+            <span class="text-[10px] sm:text-xs font-bold px-2.5 py-1 rounded-full bg-slate-100 text-slate-700">
+              Sifat Rahasia
+            </span>
+          </div>
+          <div>
+            <h4 class="text-base sm:text-lg font-bold text-slate-800 pr-16 mb-2">Prinsip Asesmen Yang Harus Dipahami</h4>
+            <p class="text-[11px] sm:text-xs text-indigo-600 font-semibold mb-3">Target: Pemahaman Seluruh Pendidik & Wali</p>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">Bukan tes kelulusan, tidak mencari peringkat, dan sama sekali dilarang memberi label negatif kepada murid baru. Hasil wajib dirahasiakan.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 mt-4 text-[10px] sm:text-xs text-slate-400">
+            Sumber: Rujukan Resmi Kemendikdasmen 2026.
+          </div>
+        </div>
+      </div>
+
+      <!-- Referensi Tautan Unduh -->
+      <div class="bg-slate-100 rounded-2xl sm:rounded-3xl p-5 sm:p-8 space-y-6">
+        <h4 class="text-lg sm:text-xl font-bold text-slate-800 flex items-center gap-2">
+          <i class="fa-solid fa-download text-indigo-600"></i> Tautan Unduh Rujukan & Template Resmi
+        </h4>
+        <p class="text-xs text-slate-500">Gunakan tautan resmi Kementerian untuk memandu program di sekolah Anda:</p>
+
+        <!-- Download List Container -->
+        <div class="space-y-3" id="downloads-container">
+          <!-- Populated via JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== 5. KUIS / KALKULATOR KESIAPAN ==================== -->
+    <div id="tab-content-kuis" class="tab-pane space-y-8 max-w-3xl mx-auto hidden animate-fadeIn">
+      <div class="text-center">
+        <h3 class="text-2xl sm:text-3xl font-black text-slate-900">Kalkulator Kesiapan Regulasi MPLS 2026</h3>
+        <p class="text-slate-500 text-xs sm:text-sm mt-2">
+          Evaluasi mandiri kesiapan sekolah Anda untuk meminimalisir risiko sanksi administratif berdasarkan ketetapan Permendikdasmen No. 12 Tahun 2026.
+        </p>
+      </div>
+
+      <!-- Quiz Form State -->
+      <div id="quiz-form-panel" class="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 lg:p-8 border border-slate-100 shadow-sm space-y-6">
+        <form id="mpls-quiz-form" onsubmit="event.preventDefault(); submitQuiz();" class="space-y-6">
+          
+          <!-- Pertanyaan 1 -->
+          <div class="p-4 bg-slate-50 rounded-xl space-y-3">
+            <p class="font-semibold text-slate-800 text-xs sm:text-sm">1. Apakah durasi pelaksanaan MPLS di sekolah Anda direncanakan berlangsung penuh selama 5 (lima) hari efektif?</p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q1" value="ya" class="text-indigo-600 focus:ring-indigo-500" required>
+                Ya, sudah dialokasikan 5 hari kerja efektif
+              </label>
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q1" value="tidak" class="text-indigo-600 focus:ring-indigo-500">
+                Belum, masih mengacu format lama (3 hari)
+              </label>
+            </div>
+          </div>
+
+          <!-- Pertanyaan 2 -->
+          <div class="p-4 bg-slate-50 rounded-xl space-y-3">
+            <p class="font-semibold text-slate-800 text-xs sm:text-sm">2. Apakah sekolah telah menyusun jadwal sosialisasi program kepada orang tua/wali murid minimal H-5 kerja sebelum MPLS dimulai?</p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q2" value="ya" class="text-indigo-600 focus:ring-indigo-500" required>
+                Ya, sudah terjadwal resmi
+              </label>
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q2" value="tidak" class="text-indigo-600 focus:ring-indigo-500">
+                Belum teragendakan secara khusus
+              </label>
+            </div>
+          </div>
+
+          <!-- Pertanyaan 3 -->
+          <div class="p-4 bg-slate-50 rounded-xl space-y-3">
+            <p class="font-semibold text-slate-800 text-xs sm:text-sm">3. Apakah panitia menjamin TIDAK ada pelibatan alumni luar dan penugasan atribut aneh non-edukatif (papan nama kardus, dsb)?</p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q3" value="ya" class="text-indigo-600 focus:ring-indigo-500" required>
+                Ya, dijamin bersih dari perpeloncoan kreatif
+              </label>
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q3" value="tidak" class="text-indigo-600 focus:ring-indigo-500">
+                Masih menggunakan atribut khas lama agar meriah
+              </label>
+            </div>
+          </div>
+
+          <!-- Pertanyaan 4 -->
+          <div class="p-4 bg-slate-50 rounded-xl space-y-3">
+            <p class="font-semibold text-slate-800 text-xs sm:text-sm">4. Apakah agenda menyertakan Asesmen Kebugaran Jasmani serta Identifikasi Awal Sosial-Emosional?</p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q4" value="ya" class="text-indigo-600 focus:ring-indigo-500" required>
+                Ya, diintegrasikan di Hari ke-2 dan Hari ke-3
+              </label>
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q4" value="tidak" class="text-indigo-600 focus:ring-indigo-500">
+                Tidak ada agenda pengukuran kesehatan atau emosi
+              </label>
+            </div>
+          </div>
+
+          <!-- Pertanyaan 5 -->
+          <div class="p-4 bg-slate-50 rounded-xl space-y-3">
+            <p class="font-semibold text-slate-800 text-xs sm:text-sm">5. Apakah pendanaan kegiatan sepenuhnya bebas dari pungutan biaya mandiri wali murid (misal: bersumber dari Dana BOS)?</p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q5" value="ya" class="text-indigo-600 focus:ring-indigo-500" required>
+                Ya, 100% bebas pungutan biaya
+              </label>
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q5" value="tidak" class="text-indigo-600 focus:ring-indigo-500">
+                Masih ada iuran atribut, konsumsi, atau donasi wajib
+              </label>
+            </div>
+          </div>
+
+          <!-- Pertanyaan 6 -->
+          <div class="p-4 bg-slate-50 rounded-xl space-y-3">
+            <p class="font-semibold text-slate-800 text-xs sm:text-sm">6. Apakah panitia telah menyusun mekanisme pelaporan evaluasi program yang wajib dikirim ke Dinas Pendidikan H+30 setelah kegiatan?</p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q6" value="ya" class="text-indigo-600 focus:ring-indigo-500" required>
+                Ya, mekanisme pelaporan sudah siap
+              </label>
+              <label class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 cursor-pointer">
+                <input type="radio" name="q6" value="tidak" class="text-indigo-600 focus:ring-indigo-500">
+                Belum dipersiapkan draf pelaporannya
+              </label>
+            </div>
+          </div>
+
+          <div class="pt-4 flex justify-end">
+            <button type="submit" class="font-bold px-6 py-3.5 rounded-xl shadow-md transition-all bg-indigo-600 hover:bg-indigo-700 text-white w-full sm:w-auto flex items-center justify-center gap-2 text-xs sm:text-sm">
+              <span>Hitung Persentase Kepatuhan</span> <i class="fa-solid fa-chart-bar"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Quiz Result State (Hidden by default) -->
+      <div id="quiz-result-panel" class="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-10 border border-slate-100 shadow-lg space-y-8 animate-fadeIn text-center hidden">
+        <div class="max-w-xs mx-auto">
+          <div class="relative pt-1">
+            <div class="flex mb-2 items-center justify-between">
+              <div>
+                <span class="text-[10px] font-bold inline-block py-1 px-2.5 uppercase rounded-full text-indigo-600 bg-indigo-50">
+                  Persentase Kepatuhan
+                </span>
+              </div>
+              <div class="text-right">
+                <span id="quiz-percent-val" class="text-lg sm:text-xl font-bold inline-block text-indigo-600">
+                  0%
+                </span>
+              </div>
+            </div>
+            <div class="overflow-hidden h-3 mb-4 text-xs flex rounded-full bg-slate-100">
+              <div id="quiz-progress-bar" style="width: 0%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center transition-all duration-1000"></div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 id="quiz-verdict-title" class="text-lg sm:text-2xl font-black text-slate-800">
+            -
+          </h4>
+          <p id="quiz-verdict-desc" class="text-xs sm:text-sm text-slate-500 mt-2 max-w-md mx-auto">
+            -
+          </p>
+        </div>
+
+        <!-- Detail checklist hasil -->
+        <div class="bg-slate-50 rounded-xl sm:rounded-2xl p-5 text-left max-w-xl mx-auto space-y-3">
+          <h5 class="font-bold text-slate-800 text-xs sm:text-sm">Review Poin Kepatuhan Regulasi:</h5>
+          <div class="space-y-2 text-[11px] sm:text-xs" id="quiz-checks-list">
+            <!-- Dynamically injected -->
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row justify-center gap-3">
+          <button onclick="resetQuiz()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-5 py-3 rounded-lg text-xs sm:text-sm transition-all w-full sm:w-auto">
+            Ulangi Tes
+          </button>
+          <a href="https://wa.me/6282332734002?text=Halo%20Pak%20Jamaluddin,%20sekolah%20kami%20telah%20mencoba%20Kalkulator%20MPLS%202026%20dan%20membutuhkan%20konsultasi%20mengenai%20kesiapan%20regulasi." target="_blank" rel="noopener noreferrer" class="bg-teal-500 hover:bg-teal-600 text-white font-bold px-5 py-3 rounded-lg text-xs sm:text-sm transition-all shadow-sm flex items-center justify-center gap-2 w-full sm:w-auto">
+            <i class="fa-brands fa-whatsapp text-sm"></i> <span>Konsultasi Hasil</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- === FOOTER === -->
+  <footer class="bg-slate-900 text-slate-400 py-8 sm:py-10 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="space-y-2 text-center md:text-left">
+          <div class="flex items-center justify-center md:justify-start gap-2">
+            <span class="text-xl">🏫</span>
+            <span class="font-extrabold text-white tracking-wide text-sm sm:text-base">PANDUAN MPLS RAMAH 2026</span>
+          </div>
+          <p class="text-[11px] sm:text-xs text-slate-500 max-w-sm leading-relaxed mx-auto md:mx-0">
+            Platform rujukan mandiri untuk membantu penyusunan Masa Pengenalan Lingkungan Sekolah yang bermakna dan bebas kekerasan.
+          </p>
+        </div>
+
+        <!-- Creator Credit Profile -->
+        <div class="bg-slate-800/60 p-4 rounded-xl border border-slate-700/50 flex flex-col sm:flex-row items-center gap-4 max-w-md w-full">
+          <img 
+            src="https://ik.imagekit.io/33c8o2seg5/me%20new%20red%20(2).png?updatedAt=1769394440140" 
+            alt="Jamaluddin" 
+            class="w-12 h-12 rounded-full border border-teal-400 object-cover shrink-0"
+            onerror="this.onerror=null; this.src='https://cdn-icons-png.flaticon.com/512/3135/3135715.png';"
+          />
+          <div class="text-[11px] sm:text-xs space-y-0.5 text-center sm:text-left w-full sm:w-auto">
+            <p class="text-slate-500">Hubungi Pengembang Aplikasi:</p>
+            <p class="font-bold text-white text-sm sm:text-base">Jamaluddin</p>
+            <p class="text-teal-300 font-semibold text-[10px] sm:text-xs">Guru Pejuang Digital</p>
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-1.5 sm:gap-2 mt-1">
+              <a href="tel:082332734002" class="text-indigo-400 hover:underline">082332734002</a>
+              <span class="text-slate-600 hidden sm:inline">|</span>
+              <a href="https://s.id/cv-tretanjamal" target="_blank" rel="noopener noreferrer" class="text-teal-400 hover:underline">CV Pengembang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-6 text-center text-[10px] sm:text-xs">
+        <p>© 2026 Portal MPLS Ramah | Pengembang: Jamaluddin | Berdasarkan Rujukan Resmi Kemendikdasmen RI</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Inline Toast Container for notifications -->
+  <div id="toast" class="fixed bottom-5 right-5 bg-slate-800 text-white text-[11px] sm:text-xs px-4 py-2.5 rounded-lg shadow-lg opacity-0 transition-opacity duration-300 pointer-events-none z-50 flex items-center gap-2">
+    <i class="fa-solid fa-check text-green-400"></i>
+    <span id="toast-text"></span>
+  </div>
+
+  <!-- === JAVASCRIPT STATE AND LOGIC === -->
+  <script>
+    // Proteksi anti klik kanan dan pintasan keyboard inspeksi
+    document.addEventListener('contextmenu', function (e) {
+      e.preventDefault();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      // Blokir F12
+      if (e.key === 'F12') {
+        e.preventDefault();
+        return false;
+      }
+      // Blokir Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C
+      if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J' || e.key === 'C' || e.key === 'i' || e.key === 'j' || e.key === 'c')) {
+        e.preventDefault();
+        return false;
+      }
+      // Blokir Ctrl+U (View Source)
+      if (e.ctrlKey && (e.key === 'U' || e.key === 'u')) {
+        e.preventDefault();
+        return false;
+      }
+      // Blokir Ctrl+S (Save Page)
+      if (e.ctrlKey && (e.key === 'S' || e.key === 's')) {
+        e.preventDefault();
+        return false;
+      }
+    });
+
+    // Anti-Debugging Loop (Membekukan panel inspect jika terbuka)
+    setInterval(function() {
+      (function() {
+        try {
+          (function a(i) {
+            if (('' + i / i).length !== 1 || i % 20 === 0) {
+              (function() {}).constructor('debugger')();
+            } else {
+              debugger;
+            }
+            a(++i);
+          })(0);
+        } catch (e) {}
+      })();
+    }, 1000);
+
+    // === DATA STRUCTURES ===
+    const JENJANG_GUIDE = {
+      tk: {
+        title: "Taman Kanak-Kanak (TK)",
+        fokus: "Fase Transisi yang Menyenangkan. Didampingi penuh oleh orang tua/wali di hari pertama guna membangun rasa aman serta kenyamanan emosional anak.",
+        hari: [
+          {
+            day: "Hari 1",
+            title: "Salam Sapa & Kenali Diri Ceria",
+            aktivitas: [
+              "Penyambutan ramah oleh guru di gerbang.",
+              "Menyanyikan lagu Indonesia Raya & Berdoa.",
+              "Pengenalan diri, teman baru, dan para pendidik.",
+              "Jelajah fasilitas sekolah secara interaktif.",
+              "Makan sehat & bergizi, jeda bermain ceria."
+            ]
+          },
+          {
+            day: "Hari 2",
+            title: "Pertemuan Pagi & Tebak Gambar G7KAIH",
+            aktivitas: [
+              "Salam sapa pagi ceria.",
+              "Permainan tebak gambar adaptasi akhlak luhur.",
+              "Kegiatan eksplorasi pilihan di dalam kelas.",
+              "Edukasi toilet training dengan riang.",
+              "Makan bekal sehat bersama."
+            ]
+          },
+          {
+            day: "Hari 3",
+            title: "Sekolah Bersih, Hati Gembira",
+            aktivitas: [
+              "Kerja bakti riang mengembalikan mainan.",
+              "Edukasi siaga bencana lewat lagu anak ceria.",
+              "Penyuluhan kebiasaan mencuci tangan.",
+              "Bermain estafet gembira dengan teman."
+            ]
+          },
+          {
+            day: "Hari 4",
+            title: "Eksplorasi Garis & Atur Waktu Layar",
+            aktivitas: [
+              "Permainan 'Garis Pilihanku' (motorik kasar).",
+              "Dongeng bertema membatasi gawai / screen-time.",
+              "Kreasi menggambar imajinasi bebas.",
+              "Makan sehat berbekal buah segar."
+            ]
+          },
+          {
+            day: "Hari 5",
+            title: "Gelang Persahabatan & Berani Tampil",
+            aktivitas: [
+              "Merajut gelang persahabatan kertas warna.",
+              "Unjuk keberanian bernyanyi kelompok di depan kelas.",
+              "Refleksi sederhana: 'Apa yang paling aku sukai di sekolah?'.",
+              "Pemberian apresiasi hangat non-kompetitif."
+            ]
+          }
+        ]
+      },
+      sd: {
+        title: "Sekolah Dasar (SD)",
+        fokus: "Fase Transisi PAUD-SD yang Menyenangkan. Sangat disarankan diantar orang tua pada hari pertama. Tidak ada tes calistung fisik murni, mengedepankan eksplorasi gembira.",
+        hari: [
+          {
+            day: "Hari 1",
+            title: "Salam Sapa, Kenali Diri & Tur Harta Karun",
+            aktivitas: [
+              "Upacara bendera kondusif.",
+              "Permainan kenali diri, guru, dan teman sebaya.",
+              "Tur menjelajah sekolah ala pencarian harta karun.",
+              "Simulasi singkat kesiapsiagaan bencana.",
+              "Giat 'Operasi Semut' membersihkan laci."
+            ]
+          },
+          {
+            day: "Hari 2",
+            title: "Pengukuran Kebugaran & Aturan Sekolah ASRI",
+            aktivitas: [
+              "Cek denyut jantung & tes fleksibilitas sederhana secara riang.",
+              "Pemberantasan sampah plastik lewat gerakan Sekolah ASRI.",
+              "Kuis interaktif 'Siapa Yang Tahu Aturannya?'.",
+              "Praktik mencuci tangan dan makan bekal sehat bersama."
+            ]
+          },
+          {
+            day: "Hari 3",
+            title: "Jelajah Belajar Seru & Karakter G7KAIH",
+            aktivitas: [
+              "Simulasi pengenalan kelas dan tata cara belajar.",
+              "Sesi mendengarkan cerita (storytelling) 7 Kebiasaan Baik.",
+              "Praktik meminta tolong dan permisi secara santun.",
+              "Operasi semut menjaga kelas tetap bersih."
+            ]
+          },
+          {
+            day: "Hari 4",
+            title: "Tata Tertib & Keadaban Bermedia Digital",
+            aktivitas: [
+              "Dongeng edukasi batasi bermain gim daring (online).",
+              "Sesi pengenalan perlindungan fisik (mengenal sentuhan aman).",
+              "Pengecekan kebersihan kuku dan gigi secara berkala.",
+              "Sosialisasi bahaya NAPZA: kampanye jangan terima makanan dari orang asing."
+            ]
+          },
+          {
+            day: "Hari 5",
+            title: "Pengenalan Kepanduan & Kesepakatan Bersama",
+            aktivitas: [
+              "Simulasi Pramuka Siaga gembira.",
+              "Merumuskan kesepakatan 'Sekolahku Aman dan Nyaman'.",
+              "Panggung unjuk bakat dan minat orisinal siswa.",
+              "Refleksi penutupan dengan doa bersama."
+            ]
+          }
+        ]
+      },
+      smp: {
+        title: "Sekolah Menengah Pertama (SMP)",
+        fokus: "Masa Pubertas dan Pembentukan Jati Diri. Menekankan pencegahan perundungan, literasi-numerasi dasar, kecerdasan digital, dan komitmen anti-bullying.",
+        hari: [
+          {
+            day: "Hari 1",
+            title: "Wawasan Wiyata Mandala & Penguatan Karakter",
+            aktivitas: [
+              "Upacara bendera mengacu regulasi resmi Kemendikdasmen.",
+              "Pengenalan pilar Wawasan Wiyata Mandala.",
+              "Materi interaktif 'Aku Anak Indonesia Hebat, Karakterku Kuat'.",
+              "Refleksi dan kesepakatan komitmen kelas."
+            ]
+          },
+          {
+            day: "Hari 2",
+            title: "Kebugaran Jasmani & Ruang Perjumpaan",
+            aktivitas: [
+              "Asesmen Kebugaran (Cek denyut jantung dan kelenturan fisik).",
+              "Aktivitas 'Ruang Perjumpaan Murid Baru' untuk mencairkan suasana.",
+              "Materi tanggap kesiapsiagaan bencana di sekolah.",
+              "Edukasi budaya antre di kantin sekolah."
+            ]
+          },
+          {
+            day: "Hari 3",
+            title: "Asesmen Kompetensi Dasar & Edukasi NAPZA",
+            aktivitas: [
+              "Asesmen diagnostik literasi, numerasi, serta identifikasi minat bakat.",
+              "Asesmen mandiri sosial-emosional dasar.",
+              "Edukasi literasi digital dan bijak bersosial media.",
+              "Seminar anti-NAPZA bekerjasama dengan pihak terkait."
+            ]
+          },
+          {
+            day: "Hari 4",
+            title: "Relasi Sehat & Cara Belajar Efektif",
+            aktivitas: [
+              "Sesi 'Sahabat Hebat: Dengar, Peduli, dan Hargai' (Anti-Bullying).",
+              "Sosialisasi penumbuhan motivasi dan trik belajar efektif di jenjang SMP.",
+              "Aksi gotong royong memilah sampah di area sekolah."
+            ]
+          },
+          {
+            day: "Hari 5",
+            title: "Unjuk Karya Kreasi & Ikrar BSAN",
+            aktivitas: [
+              "Pameran poster digital anti-kekerasan dan unjuk karya orisinal.",
+              "Deklarasi bersama mewujudkan Budaya Sekolah Aman dan Nyaman.",
+              "Pengisian umpan balik evaluasi pelaksanaan MPLS."
+            ]
+          }
+        ]
+      },
+      sma: {
+        title: "SMA & SMK",
+        fokus: "Kemandirian, Kesiapan Karir, dan Kepemimpinan. Fokus pada pencegahan kekerasan ekstrem, manajemen emosi, pembiasaan K3 (untuk SMK), serta literasi digital.",
+        hari: [
+          {
+            day: "Hari 1",
+            title: "Wawasan Akademik & Keadaban Bermedia Sosial",
+            aktivitas: [
+              "Upacara pembukaan terpadu mengacu SEB No. 9/2026.",
+              "Orientasi kurikulum akademik dan program kejuruan (khusus SMK).",
+              "Seminar interaktif keadaban digital dan pencegahan perundungan siber (cyberbullying)."
+            ]
+          },
+          {
+            day: "Hari 2",
+            title: "Asesmen Kebugaran & Eksplorasi Minat Bakat",
+            aktivitas: [
+              "Asesmen kebugaran jasmani dasar (indeks massa tubuh, nadi, kelenturan).",
+              "Simulasi pencairan suasana di 'Ruang Perjumpaan'.",
+              "Sesi 'Sahabat Hebat' untuk saling menghargai keragaman latar belakang."
+            ]
+          },
+          {
+            day: "Hari 3",
+            title: "Asesmen Diagnostik & Tanggap Bencana",
+            aktivitas: [
+              "Pelaksanaan asesmen literasi, numerasi, dan skrining awal emosi siswa.",
+              "Simulasi evakuasi mandiri kesiapsiagaan gempa & bencana.",
+              "Edukasi pencegahan dampak negatif kecanduan gim daring.",
+              "Pameran / demo program ekstrakurikuler sekolah."
+            ]
+          },
+          {
+            day: "Hari 4",
+            title: "Profil Lulusan & Isu Kenakalan Remaja",
+            aktivitas: [
+              "Eksplorasi delapan dimensi profil kelulusan siswa mandiri.",
+              "Seminar bahaya NAPZA dan penanganan perilaku menyimpang remaja.",
+              "Gerakan Indonesia ASRI: aksi bersih lingkungan terintegrasi."
+            ]
+          },
+          {
+            day: "Hari 5",
+            title: "Penerapan Budaya Kerja & Unjuk Talenta",
+            aktivitas: [
+              "Materi Budaya Kerja K3 (5R/5S) khusus siswa vokasi SMK.",
+              "Pentas seni, orasi kepemimpinan, atau unjuk karya orisinal.",
+              "Ikrar kesepakatan bersama penerapan Sekolah Aman Bebas Kekerasan."
+            ]
+          }
+        ]
+      },
+      slb: {
+        title: "Sekolah Luar Biasa (SLB)",
+        fokus: "Dukungan Sensoris & Keamanan Emosional. Orang tua wajib mendampingi guna mempercepat masa transisi adaptasi lingkungan inklusi.",
+        hari: [
+          {
+            day: "Hari 1",
+            title: "Upacara Ramah & Saling Kenal Mandiri",
+            aktivitas: [
+              "Penyambutan penuh kehangatan oleh guru pembina khusus.",
+              "Menyanyikan lagu kebangsaan secara adaptif.",
+              "Sesi kenali diri dan saling kenal teman sejawat dibantu bahasa isyarat/media visual.",
+              "Makan bekal sehat bergizi bersama orang tua."
+            ]
+          },
+          {
+            day: "Hari 2",
+            title: "Pagi Ceria & Pengenalan Adaptif Lingkungan",
+            aktivitas: [
+              "Cek denyut jantung (kecuali siswa disabilitas daksa).",
+              "Tur ramah disabilitas memperkenalkan toilet aksesibel dan ruang kelas khusus.",
+              "Pengenalan dasar gerakan karakter luhur.",
+              "Simulasi sederhana evakuasi bencana disesuaikan hambatan siswa."
+            ]
+          },
+          {
+            day: "Hari 3",
+            title: "Belajar Bersama, Tumbuh Bersama",
+            aktivitas: [
+              "Permainan motorik adaptif terpandu.",
+              "Pengenalan pembelajaran jenjang baru (intrakurikuler & ekstrakurikuler).",
+              "Sesi interaksi sosial aman dibantu orang tua.",
+              "Makan buah sehat bekal bersama."
+            ]
+          },
+          {
+            day: "Hari 4",
+            title: "Indonesia ASRI & Pengenalan Inklusivitas",
+            aktivitas: [
+              "Menanam bunga hias di pot kecil halaman sekolah.",
+              "Pengenalan nilai-nilai keunikan diri dan kebinekaan.",
+              "Simulasi sederhana keadaban digital adaptif.",
+              "Makan bekal bernutrisi gizi seimbang."
+            ]
+          },
+          {
+            day: "Hari 5",
+            title: "Kesehatan Mental & Unjuk Talenta Istimewa",
+            aktivitas: [
+              "Edukasi rasa cinta diri (self-care) dan penanganan emosi.",
+              "Unjuk talenta istimewa (melukis, menyanyi, bermain alat musik adaptif).",
+              "Refleksi akhir masa transisi gembira bersama guru dan orang tua.",
+              "Doa dan penutupan hangat."
+            ]
+          }
+        ]
+      }
+    };
+
+    const RUJUKAN_DAN_DOWNLOAD = [
+      {
+        label: "Laman Utama MPLS Ramah Puspeka",
+        url: "http://cerdasberkarakter.kemendikdasmen.go.id/mplsramah",
+        desc: "Portal utama Kementerian Pendidikan Dasar dan Menengah untuk memantau modul resmi, poster, dan video panduan karakter."
+      },
+      {
+        label: "Buku Rujukan Kegiatan MPLS Ramah 2026 (TK, SD, SMP, SMA)",
+        url: "https://s.id/bukurujukanmplsramah26",
+        desc: "Unduh file panduan rujukan kurikulum, draf jadwal rinci, dan aktivitas transisi bagi pendidik."
+      },
+      {
+        label: "Asesmen Deteksi Dini & Karakter MPLS Ramah",
+        url: "https://cerdasberkarakter.kemendikdasmen.go.id/asesmen-mpls-ramah/",
+        desc: "Unduh instrumen evaluasi sosial-emosional siswa, kebugaran jasmani, dan kuesioner deteksi dini kekerasan sekolah."
+      },
+      {
+        label: "Permendikdasmen No. 12 Tahun 2026 (MPLS)",
+        url: "https://s.id/permendikdasmen12th2026",
+        desc: "Salinan dokumen dasar hukum Permendikdasmen No. 12 Tahun 2026 yang wajib diimplementasikan di semua sekolah formal."
+      }
+    ];
+
+    // === TAB MANAGEMENT ===
+    function switchTab(tabId) {
+      // Hide all panes
+      document.querySelectorAll('.tab-pane').forEach(pane => {
+        pane.classList.add('hidden');
+      });
+      // Show targeted pane
+      document.getElementById(`tab-content-${tabId}`).classList.remove('hidden');
+
+      // Update button UI active states
+      document.querySelectorAll('.nav-btn').forEach(btn => {
+        btn.className = "nav-btn px-2.5 py-2 sm:px-3 rounded-lg transition-all text-white hover:bg-indigo-600/50 flex-grow sm:flex-grow-0 text-center";
+      });
+      document.getElementById(`btn-tab-${tabId}`).className = "nav-btn px-2.5 py-2 sm:px-3 rounded-lg transition-all bg-white text-indigo-800 shadow-sm flex-grow sm:flex-grow-0 text-center";
+
+      // Toggle Hero Area visibility (Only visible on Home)
+      const hero = document.getElementById('hero-section');
+      if (tabId === 'home') {
+        hero.classList.remove('hidden');
+      } else {
+        hero.classList.add('hidden');
+      }
+
+      // Scroll window to top smoothly
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // === JENJANG PANDUAN MANAGEMENT ===
+    function switchJenjang(jenjangKey) {
+      const data = JENJANG_GUIDE[jenjangKey];
+      if (!data) return;
+
+      // Update header & fokustext
+      document.getElementById('jenjang-title-header').innerHTML = `<span>🎯</span> Fokus Utama Jenjang ${data.title}`;
+      document.getElementById('jenjang-fokus-text').textContent = data.fokus;
+
+      // Update selector buttons styling
+      const keys = ['tk', 'sd', 'smp', 'sma', 'slb'];
+      keys.forEach(k => {
+        const btn = document.getElementById(`btn-jenjang-${k}`);
+        if (k === jenjangKey) {
+          btn.className = "flex-grow sm:flex-1 min-w-[65px] py-2.5 px-4 rounded-lg sm:rounded-full text-xs sm:text-sm font-extrabold transition-all text-white shadow-md " + 
+            (k === 'sd' ? 'bg-rose-500 hover:bg-rose-600' : k === 'smp' ? 'bg-indigo-600 hover:bg-indigo-700' : k === 'sma' ? 'bg-emerald-600' : k === 'tk' ? 'bg-amber-500' : 'bg-slate-700');
+        } else {
+          btn.className = "flex-grow sm:flex-1 min-w-[65px] py-2.5 px-4 rounded-lg sm:rounded-full text-xs sm:text-sm font-bold transition-all text-slate-600 hover:text-slate-900";
+        }
+      });
+
+      // Render day cards in grid responsive
+      const container = document.getElementById('days-container');
+      container.innerHTML = '';
+      data.hari.forEach(h => {
+        const card = document.createElement('div');
+        card.className = "bg-slate-50 rounded-xl p-4 border border-slate-200/60 flex flex-col justify-between hover:border-indigo-400 transition-colors";
+        
+        let actHtml = '';
+        h.aktivitas.forEach(act => {
+          actHtml += `<li class="relative pl-3"><span class="absolute left-0 top-1 text-[8px] text-indigo-500">■</span>${act}</li>`;
+        });
+
+        card.innerHTML = `
+          <div>
+            <span class="text-[9px] font-extrabold uppercase tracking-widest text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-full inline-block mb-3 border border-indigo-100">
+              ${h.day}
+            </span>
+            <h6 class="font-extrabold text-slate-800 text-sm mb-3 leading-tight">${h.title}</h6>
+            <ul class="text-xs text-slate-600 space-y-2.5 list-none">
+              ${actHtml}
+            </ul>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // === COPY TO CLIPBOARD ===
+    function copyUrl(text, id) {
+      // Use fallback creation for iFrame restriction safety
+      const tempArea = document.createElement('textarea');
+      tempArea.value = text;
+      document.body.appendChild(tempArea);
+      tempArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempArea);
+
+      // Show temporary inline notification/toast
+      const toast = document.getElementById('toast');
+      const toastText = document.getElementById('toast-text');
+      toastText.textContent = "Tautan rujukan berhasil disalin!";
+      toast.classList.remove('opacity-0');
+      toast.classList.add('opacity-100');
+
+      // Update button text locally
+      const btn = document.getElementById(`copy-btn-${id}`);
+      const originalText = btn.textContent;
+      btn.textContent = "Tersalin ✓";
+      btn.className = "text-xs font-semibold px-4 py-2 rounded-xl transition-all border bg-green-100 text-green-700 border-green-300 flex-1 sm:flex-none text-center shadow-inner";
+
+      setTimeout(() => {
+        toast.classList.remove('opacity-100');
+        toast.classList.add('opacity-0');
+        btn.textContent = originalText;
+        btn.className = "text-xs font-semibold px-4 py-2 rounded-xl transition-all border bg-slate-50 hover:bg-slate-100 text-slate-700 flex-1 sm:flex-none text-center";
+      }, 2000);
+    }
+
+    // === POPULATE DOWNLOAD LIST ===
+    function populateDownloads() {
+      const container = document.getElementById('downloads-container');
+      container.innerHTML = '';
+      RUJUKAN_DAN_DOWNLOAD.forEach((ref, idx) => {
+        const item = document.createElement('div');
+        item.className = "bg-white p-4 rounded-xl border border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-sm hover:border-indigo-100 transition-colors";
+        item.innerHTML = `
+          <div class="space-y-1">
+            <h5 class="font-bold text-slate-800 text-sm flex items-center gap-2">
+              <span class="text-indigo-500"><i class="fa-solid fa-file-pdf"></i></span>
+              ${ref.label}
+            </h5>
+            <p class="text-xs text-slate-500 leading-relaxed">${ref.desc}</p>
+            <code class="text-[10px] text-indigo-600 bg-indigo-50/50 px-2 py-0.5 rounded break-all font-mono inline-block mt-1">${ref.url}</code>
+          </div>
+          <div class="flex gap-2 shrink-0 w-full sm:w-auto">
+            <button id="copy-btn-${idx}" onclick="copyUrl('${ref.url}', ${idx})" class="text-xs font-semibold px-4 py-2.5 rounded-xl transition-all border bg-slate-50 hover:bg-slate-100 text-slate-700 flex-1 sm:flex-none text-center">
+              Salin Tautan
+            </button>
+            <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="text-xs font-extrabold bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2.5 rounded-xl text-center flex-1 sm:flex-none flex items-center justify-center gap-1.5 shadow-sm">
+              <span>Buka</span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        `;
+        container.appendChild(item);
+      });
+    }
+
+    // === QUIZ / CALCULATOR SUBMIT ===
+    function submitQuiz() {
+      const form = document.getElementById('mpls-quiz-form');
+      const formData = new FormData(form);
+      
+      let yesAnswersCount = 0;
+      const totalQuestions = 6;
+      const answersList = [];
+
+      for (let i = 1; i <= totalQuestions; i++) {
+        const val = formData.get(`q${i}`);
+        answersList.push(val);
+        if (val === 'ya') {
+          yesAnswersCount++;
+        }
+      }
+
+      const percent = Math.round((yesAnswersCount / totalQuestions) * 100);
+
+      // Build Verdict Content based on calculations
+      let verdictTitle = '';
+      let verdictDesc = '';
+      let progressColorClass = '';
+
+      if (percent === 100) {
+        verdictTitle = '🎉 SANGAT PATUH & SIAP!';
+        verdictDesc = 'Selamat! Program MPLS sekolah Anda telah sepenuhnya memenuhi aspek hukum Permendikdasmen No. 12 Tahun 2026. Pertahankan komitmen sekolah yang ramah, aman, dan inklusif.';
+        progressColorClass = 'bg-emerald-500';
+      } else if (percent >= 60) {
+        verdictTitle = '⚠️ SIAP DENGAN CATATAN';
+        verdictDesc = 'Rencana program Anda sudah cukup adaptif, namun masih terdapat pelanggaran kritis atau aspek administratif yang wajib Anda benahi sebelum kegiatan dimulai.';
+        progressColorClass = 'bg-amber-500';
+      } else {
+        verdictTitle = '🚨 BUTUH PENYELARASAN MANDATORI SEGERA';
+        verdictDesc = 'Perhatian! Sekolah Anda berisiko tinggi terkena sanksi administratif atau pemberhentian kegiatan oleh Dinas Pembina karena melanggar aturan utama Permendikdasmen No. 12 Tahun 2026.';
+        progressColorClass = 'bg-rose-500';
+      }
+
+      // Set Verdict text and animations
+      document.getElementById('quiz-percent-val').textContent = `${percent}%`;
+      const progressBar = document.getElementById('quiz-progress-bar');
+      progressBar.style.width = `${percent}%`;
+      progressBar.className = `shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center transition-all duration-1000 ${progressColorClass}`;
+      
+      document.getElementById('quiz-verdict-title').textContent = verdictTitle;
+      document.getElementById('quiz-verdict-desc').textContent = verdictDesc;
+
+      // Build detailed checklist summary
+      const checksContainer = document.getElementById('quiz-checks-list');
+      const questionsText = [
+        "Menyelenggarakan durasi kegiatan 5 hari kerja efektif.",
+        "Mengagendakan sosialisasi program kepada orang tua/wali murid minimal H-5.",
+        "Mencegah pelibatan alumni luar dan melarang penugasan atribut aneh.",
+        "Mengagendakan asesmen kebugaran jasmani & emosional.",
+        "Bebas dari pungutan biaya mandiri wali murid (sesuai aturan alokasi Dana BOS).",
+        "Mempersiapkan mekanisme pelaporan evaluasi program yang wajib dikirim ke Dinas H+30."
+      ];
+
+      checksContainer.innerHTML = '';
+      answersList.forEach((answer, index) => {
+        const item = document.createElement('div');
+        item.className = "flex items-start gap-2.5 py-1.5 border-b border-slate-100 last:border-0";
+        const icon = (answer === 'ya') ? '<i class="fa-solid fa-circle-check text-emerald-500 mt-0.5"></i>' : '<i class="fa-solid fa-circle-xmark text-rose-500 mt-0.5"></i>';
+        item.innerHTML = `
+          <span class="text-sm shrink-0">${icon}</span>
+          <p class="text-slate-600 leading-relaxed">${questionsText[index]}</p>
+        `;
+        checksContainer.appendChild(item);
+      });
+
+      // Transition Panels
+      document.getElementById('quiz-form-panel').classList.add('hidden');
+      document.getElementById('quiz-result-panel').classList.remove('hidden');
+    }
+
+    function resetQuiz() {
+      // Clear form inputs
+      document.getElementById('mpls-quiz-form').reset();
+      // Swap views back
+      document.getElementById('quiz-result-panel').classList.add('hidden');
+      document.getElementById('quiz-form-panel').classList.remove('hidden');
+    }
+
+    // === INITIALIZATION ===
+    window.onload = function() {
+      populateDownloads();
+      switchJenjang('sd');
+    };
+  </script>
+</body>
+</html>
